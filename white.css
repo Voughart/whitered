@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.mybg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+.list{
+    margin-left: 375px;
+    margin-top: 20px;
+    display:flex;
+    align-items: center;
+    gap: 250px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.5;
+    
+}
+
+.list a{
+    color:black;
+}
+
+.list a:hover{
+    color: silver;
+    background-color: black;
+    padding: 10px; 
+    width: 20px;
+    border-radius: 5px;
+}
+
+.gun-tainer{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 12%;
+    padding-bottom: 0%;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type="submit"] {
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.calculator .display{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0%;
+    margin-left: 0%;
+    display: flex;
+}
+
+.display {
+    text-align: right;
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 24px;
+    outline: black;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-size: 24px;
+    border:solid black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 0%;
+    gap: 200px;
+    background-color: silver;
+}
+
+.infos a{
+    color:black;
+}
+
+.online a{
+    color:black;
+}
+
+.subscriptions a{
+    color:black;
+}
+
+.footer a:hover{
+    color: silver;
+}
+
+h3{
+    margin-top: 50%;
+}
+
+.service{
+    margin-top: 7%;
+    margin-left: 5px;
+    margin-bottom: 0%;
+    font-weight: bold;
+    background-color: silver;
+    background-size: cover;
+}

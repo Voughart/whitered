@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <meta name="Author" content="Bogart">
+        <meta name="Description" content="Simple Webpage">
+        <link rel="stylesheet" type="text/css" href="white.css">
+        <script src="white.js"></script>
+        <link rel=" stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+
+        <title>calculator</title>
+
+        <img class="mybg" src="whitey.jfif" alt="white hexagon">
+        </div>
+
+        <div class="nav-bar">
+            <ul class="list">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">APPLICATION</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+    </head>
+
+    <body>
+
+        <div class="guntainer"></div>
+
+        <h1>WELCOME TO HEXAGON</h1>
+        <p>"Arms of Distinction, Trust Our Tradition."</p>
+
+           <div class="gun-tainer">
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                
+                <input type="submit" value="Login">
+            </form>
+            </form>
+
+            <div class="calculator">
+                <div class="display">
+                    <input type="text" id="result" disabled>
+                </div>
+                <div class="buttons">
+                    <button onclick="clearResult()">C</button>
+                    <button onclick="appendToResult('7')">7</button>
+                    <button onclick="appendToResult('8')">8</button>
+                    <button onclick="appendToResult('9')">9</button>
+                    <button onclick="appendToResult('+')">+</button>
+                    <button onclick="appendToResult('4')">4</button>
+                    <button onclick="appendToResult('5')">5</button>
+                    <button onclick="appendToResult('6')">6</button>
+                    <button onclick="appendToResult('-')">-</button>
+                    <button onclick="appendToResult('1')">1</button>
+                    <button onclick="appendToResult('2')">2</button>
+                    <button onclick="appendToResult('3')">3</button>
+                    <button onclick="appendToResult('*')">*</button>
+                    <button onclick="appendToResult('0')">0</button>
+                    <button onclick="appendToResult('.')">.</button>
+                    <button onclick="calculateResult()">=</button>
+                    <button onclick="appendToResult('/')">/</button>
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+        
+        <p class="service">CHECK OTHER SERVICES:</p>
+
+        <div class="footer">
+            <ul class="infos">
+                <li><a href="#">Refunds</a></li>
+                <li><a href="#">Promos</a></li>
+                <li><a href="#">Discounts</a></li>
+                <li><a href="#">Warranty</a></li>
+                <li><a href="#">Policy</a></li>
+            </ul>
+            <ul class="online">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+
+            <ul class="subscriptions">
+                <li><a href="#">JOIN THE REAL WORLD</a></li>
+                <li><a href="#">TATE NEWS</a></li>
+            </ul>
+
+        </div>
+
+    </body>
+
+</html>
